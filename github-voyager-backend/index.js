@@ -30,5 +30,5 @@ app.get('/github/repos/:username', async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`🚀 Backend running on http://localhost:${PORT}`);
+  console.log(` Backend running on http://localhost:${PORT}`);
 });
